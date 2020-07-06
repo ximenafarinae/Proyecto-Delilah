@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-family: "Fredoka One", cursive, "Open Sans", sans-serif;
+  font-family: "Fredoka One", cursive;
   font-size: 2em;
   font-weight: normal;
   height: 5em;
@@ -19,5 +19,36 @@ body {
   background-color: turquoise; }
   .headerTitle h1 {
     margin: 0em; }
+
+.loginForm {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+  .loginForm div {
+    margin-top: 1em; }
+
+.descriptionText {
+  font-family: "Open Sans 400", sans-serif;
+  margin: 0em;
+  font-size: 1em;
+  color: #6e6d6d; }
+
+.loginAndRegistrationInput {
+  width: 18em;
+  height: 2.7em;
+  border: 1.5px solid #cecece;
+  border-radius: 3px; }
+
+.mainBtn {
+  background-color: #fa8d62;
+  height: 2.7em;
+  width: 10em;
+  border-radius: 2em;
+  border: none; }
+  .mainBtn span {
+    color: #ffffff;
+    font-family: "Open Sans 400", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
